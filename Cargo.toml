@@ -1,0 +1,8 @@
+[package]
+name = "xitca-web-header-test"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+xitca-web = {version = "*" ,features = ["json", "logger", "codegen", "serde"]}
+
